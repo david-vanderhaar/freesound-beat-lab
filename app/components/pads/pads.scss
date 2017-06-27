@@ -1,0 +1,28 @@
+$hulk1: #88C64B;
+$hulk2: #25813E;
+$hulk3: #13613A;
+$hulkPants1: #48397C;
+$hulkPants2: #372B53;
+$pads: #525252;
+.padsComponent {
+    background-color: $hulkPants1;
+    color: white;
+    .pad {
+        padding: 40%;
+        margin: 2% 0%;
+        background-color: $pads;
+        transition: .3s;
+    }
+
+    .activePad {
+        background-color: $hulk3;
+        transition: .3s;
+    }
+    .padMenuButton {
+        color: white;
+        background-color: $pads;
+        min-width: 20px;
+        padding: 1%;
+       
+    }
+}
