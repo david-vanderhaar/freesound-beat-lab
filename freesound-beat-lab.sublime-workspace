@@ -392,9 +392,28 @@
 	"buffers":
 	[
 		{
+			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 58,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/components/pads/pads.html",
+			"settings":
+			{
+				"buffer_size": 1309,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/app.html",
+			"settings":
+			{
+				"buffer_size": 199,
 				"line_ending": "Unix"
 			}
 		}
@@ -622,10 +641,14 @@
 	},
 	"expanded_folders":
 	[
-		"/home/dvanderhaar/personal-web/freesound-beat-lab"
+		"/home/dvanderhaar/personal-web/freesound-beat-lab",
+		"/home/dvanderhaar/personal-web/freesound-beat-lab/app",
+		"/home/dvanderhaar/personal-web/freesound-beat-lab/app/components",
+		"/home/dvanderhaar/personal-web/freesound-beat-lab/app/components/pads"
 	],
 	"file_history":
 	[
+		"/home/dvanderhaar/personal-web/portfolio-grayscale/index.md",
 		"/home/dvanderhaar/bootcamp-s17/timetracker/app/timeTrackerDb.php",
 		"/home/dvanderhaar/bootcamp-s17/timetracker/timetracker.sublime-project",
 		"/home/dvanderhaar/bootcamp-s17/blog/_posts/2017-06-04-a-str-is-easy.md",
@@ -752,8 +775,7 @@
 		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/Tutorial/sublimetutor.sublime-project",
 		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/Default.sublime-commands",
 		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/Default.sublime-commands",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/sublime_tutor.py",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/Main.sublime-menu"
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/sublime_tutor.py"
 	],
 	"find":
 	{
@@ -1036,15 +1058,75 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": ".gitignore",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 58,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/components/pads/pads.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1309,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1309,
+								1309
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Espresso Libre.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/app.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 199,
 						"regions":
 						{
 						},
@@ -1057,13 +1139,13 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1644,7 +1726,7 @@
 		[
 			[
 				"",
-				"~/bootcamp-s17/blog/Bootcamp-blog.sublime-project"
+				"~/personal-web/spinny-tops/games/speed-spin/speed-spin.sublime-workspace"
 			]
 		],
 		"width": 380.0
