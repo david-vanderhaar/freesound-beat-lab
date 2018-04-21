@@ -8,6 +8,7 @@ import source from 'vinyl-source-stream';
 import watchify from 'watchify';
 import autoprefixer from 'gulp-autoprefixer';
 import concat from 'gulp-concat';
+import deploy from 'gulp-gh-pages';
 
 const autoprefixerOptions = {
 	browsers: [
@@ -76,6 +77,9 @@ gulp.task('css', () => {
 	gulp.watch('app/**/*.scss', ['sass']);
 });
 
+gulp.task('deploy', function () {
+  return gulp.src("./dist/**/*")
+    .pipe(deploy())
+});
+
 gulp.task('default', ['connect', 'bundle', 'css']);
-
-
